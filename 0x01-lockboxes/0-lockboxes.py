@@ -7,7 +7,7 @@
 def canUnlockAll(boxes):
     '''
     given that the first box is unlocked will checks if all the boxes in a
-    list of boxes containing the keys (indices) to other boxes can be unlocked .
+    list of boxes containing the keys to other boxes can be unlocked.
     '''
     nums = len(boxes)
     sboxs = set([0])
