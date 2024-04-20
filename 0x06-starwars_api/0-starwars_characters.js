@@ -1,5 +1,8 @@
 #!/usr/bin/node
-
+/**
+ * this will get a list of all characters of a Star Wars movie.
+ * @returns {{FullName: String}[]}
+ */
 const request = require('request');
 const url = `https://swapi-api.hbtn.io/api/films/${process.argv[2]}/`;
 request(url, async function (error, response, body) {
