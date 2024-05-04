@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-0. Change comes from within 
+0. Change comes from within
 """
 
 
