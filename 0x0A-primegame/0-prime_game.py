@@ -9,7 +9,8 @@
 def rm_multiples(ls, x):
     """
         removing that number and its multiples from the set.
-        removing that number and its multiples from the set.
+        Given a set of consecutive integers starting from 1 up to
+        and including n.
     """
     for i in range(2, len(ls)):
         try:
