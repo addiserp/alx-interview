@@ -9,6 +9,7 @@
 def rm_multiples(ls, x):
     """
         removing that number and its multiples from the set.
+        removing that number and its multiples from the set.
     """
     for i in range(2, len(ls)):
         try:
